@@ -1,0 +1,24 @@
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+
+# ChromaDB local database
+chroma_db/
+
+# Temporary files
+*.tmp
+*.log
+
+# Streamlit configuration and secrets
+.streamlit/
+!.streamlit/config.toml
+
+# Uploaded PDF documents
+data/*.pdf
